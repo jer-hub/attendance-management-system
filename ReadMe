@@ -1,0 +1,12 @@
+Problem Statement: Teachers need a simple and efficient way to manage student attendance. They want to be able to mark students as present or absent, and save these records for future reference. They also want to be able to access these records from anywhere, at any time.
+
+Solution: Develop a Java GUI application that allows teachers to manage student attendance. The application will provide a user-friendly interface where teachers can mark students as present or absent. It will also allow teachers to save these records to a file, which they can then access at their convenience.
+
+Features:
+
+User Authentication: Teachers can log in to the system using their credentials. The system checks the entered credentials against a list of valid users and passwords stored in a text file.
+Attendance Management: Once logged in, teachers are presented with a list of students. They can mark each student as present or absent by checking or unchecking a box next to the student’s name.
+Record Saving: Teachers can save the attendance records to a file. They can enter the name of the file in a text field, and the records are saved to a file with that name in the teacher’s directory. If the directory does not exist, it is created.
+Logout Function: Teachers can log out of the system. When a teacher logs out, the attendance window is closed and the login window is displayed again.
+Responsive Design: The size of the attendance window adjusts based on the number of students. If there are too many students to fit in the window, the list of students becomes scrollable.
+This project provides a simple and efficient solution to the problem of managing student attendance. It leverages the power of Java and its Swing library to provide a user-friendly interface that teachers can use to quickly and easily manage attendance records. The ability to save records to a file allows teachers to keep a permanent record of attendance, which they can refer to at any time. The logout function ensures that the system is secure and that only authorized users can access the attendance records. Finally, the responsive design ensures that the system is easy to use, regardless of the number of students.
